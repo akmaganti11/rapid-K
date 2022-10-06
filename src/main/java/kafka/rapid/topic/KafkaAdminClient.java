@@ -1,4 +1,4 @@
-package kafka.generic.topic;
+package kafka.rapid.topic;
 
 import java.io.IOException;
 import java.io.InputStream;

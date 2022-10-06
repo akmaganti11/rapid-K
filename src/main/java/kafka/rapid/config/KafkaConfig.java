@@ -1,4 +1,4 @@
-package kafka.generic.config;
+package kafka.rapid.config;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-import kafka.generic.topic.TopicManager;
+import kafka.rapid.topic.TopicManager;
 
 @Configuration
 public class KafkaConfig {

@@ -1,4 +1,4 @@
-package kafka.generic.producer;
+package kafka.rapid.producer;
 
 import java.util.Properties;
 import java.util.Random;
@@ -16,8 +16,8 @@ import org.springframework.stereotype.Component;
 
 import io.confluent.kafka.serializers.json.KafkaJsonSchemaSerializer;
 import io.confluent.kafka.serializers.json.KafkaJsonSchemaSerializerConfig;
-import kafka.generic.topic.TopicManager;
-import kafka.generic.vo.User;
+import kafka.rapid.topic.TopicManager;
+import kafka.rapid.vo.User;
 
 @Component
 public class UserProducer implements LifecycleProcessor {

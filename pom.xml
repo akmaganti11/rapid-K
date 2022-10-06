@@ -9,10 +9,10 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath />
 	</parent>
-	<groupId>com.kafka.generic</groupId>
-	<artifactId>kafka-generic</artifactId>
+	<groupId>com.kafka.rapid</groupId>
+	<artifactId>rapid-k</artifactId>
 	<version>1.0.0</version>
-	<name>kafka-generic</name>
+	<name>Rapid-K</name>
 
 	<properties>
 		<java.version>1.8</java.version>

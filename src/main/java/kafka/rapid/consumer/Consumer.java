@@ -1,4 +1,4 @@
-package kafka.generic.consumer;
+package kafka.rapid.consumer;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -21,8 +21,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import kafka.generic.topic.TopicManager;
-import kafka.generic.vo.ConsumerEvent;
+import kafka.rapid.topic.TopicManager;
+import kafka.rapid.vo.ConsumerEvent;
 
 @Component
 public class Consumer {

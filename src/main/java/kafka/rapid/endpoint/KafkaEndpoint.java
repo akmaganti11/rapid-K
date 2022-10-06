@@ -1,4 +1,4 @@
-package kafka.generic.endpoint;
+package kafka.rapid.endpoint;
 
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import kafka.generic.topic.TopicManager;
+import kafka.rapid.topic.TopicManager;
 
 @RestController("/kafka")
 public class KafkaEndpoint {

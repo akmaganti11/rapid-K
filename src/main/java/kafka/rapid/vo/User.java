@@ -1,4 +1,4 @@
-package kafka.generic.vo;
+package kafka.rapid.vo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

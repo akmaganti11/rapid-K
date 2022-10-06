@@ -1,12 +1,12 @@
-package kafka.generic.kickstart;
+package kafka.rapid.kickstart;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import kafka.generic.consumer.Consumer;
-import kafka.generic.producer.Producer;
+import kafka.rapid.consumer.Consumer;
+import kafka.rapid.producer.Producer;
 
 @Component
 public class KickStartKafka {

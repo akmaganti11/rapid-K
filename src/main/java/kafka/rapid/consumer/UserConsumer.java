@@ -1,4 +1,4 @@
-package kafka.generic.consumer;
+package kafka.rapid.consumer;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -23,9 +23,9 @@ import org.springframework.stereotype.Component;
 
 import io.confluent.kafka.serializers.json.KafkaJsonSchemaDeserializer;
 import io.confluent.kafka.serializers.json.KafkaJsonSchemaDeserializerConfig;
-import kafka.generic.topic.TopicManager;
-import kafka.generic.vo.ConsumerEvent;
-import kafka.generic.vo.User;
+import kafka.rapid.topic.TopicManager;
+import kafka.rapid.vo.ConsumerEvent;
+import kafka.rapid.vo.User;
 
 @Component
 public class UserConsumer {
