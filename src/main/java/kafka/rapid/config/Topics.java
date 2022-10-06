@@ -1,4 +1,4 @@
-package kafka.generic.config;
+package kafka.rapid.config;
 
 import java.util.HashSet;
 import java.util.Set;

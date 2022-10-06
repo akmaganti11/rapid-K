@@ -1,4 +1,4 @@
-package kafka.generic.vo;
+package kafka.rapid.vo;
 
 import org.apache.kafka.common.header.Headers;
 

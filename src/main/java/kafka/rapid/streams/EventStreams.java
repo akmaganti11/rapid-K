@@ -1,4 +1,4 @@
-package kafka.generic.streams;
+package kafka.rapid.streams;
 
 public class EventStreams {
 

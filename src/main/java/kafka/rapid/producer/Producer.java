@@ -1,4 +1,4 @@
-package kafka.generic.producer;
+package kafka.rapid.producer;
 
 import java.util.Properties;
 import java.util.UUID;
@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.LifecycleProcessor;
 import org.springframework.stereotype.Component;
 
-import kafka.generic.topic.TopicManager;
+import kafka.rapid.topic.TopicManager;
 
 @Component
 public class Producer implements LifecycleProcessor {

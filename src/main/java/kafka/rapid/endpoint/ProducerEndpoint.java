@@ -1,4 +1,4 @@
-package kafka.generic.endpoint;
+package kafka.rapid.endpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import kafka.generic.producer.Producer;
-import kafka.generic.producer.UserProducer;
-import kafka.generic.vo.User;
+import kafka.rapid.producer.Producer;
+import kafka.rapid.producer.UserProducer;
+import kafka.rapid.vo.User;
 
 @RestController("/producer")
 public class ProducerEndpoint {
